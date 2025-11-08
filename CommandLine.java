@@ -1,14 +1,6 @@
-import java.util.Scanner;
-
 public class CommandLine {
 
 public static void main(String[] args) {
-
-    Scanner scanner = new Scanner(System.in);
-    System.out.println("Enter an operation (+, -, *, /) followed by numbers:");
-
-    String numinput = scanner.nextLine();  
-
     if (args.length == 0) {
         System.out.println("No arguments provided.");
     } else {
